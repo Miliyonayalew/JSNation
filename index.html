@@ -4,16 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitNation</title>
+    <title>JSNation</title>
     <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
     <link rel="manifest" href="icons/favicon/site.webmanifest">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link rel="stylesheet" href="src/style/styles.css">
+    <script src="https://kit.fontawesome.com/1bc3a7e061.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <!--Header section-->
+    <header class="header">
+        <nav class="nav-menu flex">
+            <div class="hamburger-menu flex">
+                <a href="#">
+                    <i class="fa-solid fa-2x fa-bars" aria-label="menu-icon"></i>
+                </a>
+            </div>
+        </nav>
+        <section class="headline flex">
+            <h2 class="motto">"Speak the same language."</h2>
+            <h1 class="title">JSNation The main JS Conference <sub>2022</sub></h1>
+            <p class="intro">We strive for openness and technical excellence, 
+                and our mission is to make them a part of the everyday engineering 
+                culture. You’re invited to join us!</p>
+            <h3 class="event-date">2022.10.20(THU) ~ 30(SAT)</h3>
+            <h4 class="event-location">@ Gedempt Hamerkanaal 231 1021 KP Amsterdam</h4>
+        </section>  
+    </header>
+    <!--Main section-->
+    <main>
+        <section class="main-program flex">
+        <h2 class="program-title flex">
+            Main Program
+            <span class="indicator"></span>
+        </h2>
+        <div class="program-cards">
+            <div class="program-card flex">
+                <img src="assets/CardIcons/lecturer.png" alt="lecture-icon">
+                <h3>Engineers</h3>
+                <p>We organize memorable events where people can skill up, get inspired, 
+                    and get in touch with their fellow development enthusiasts.</p>
+            </div>
+            <div class="program-card flex">
+                <img src="assets/CardIcons/exhibtion.png" alt="exhibition-icon">
+                <h3>Authors</h3>
+                <p>We support and celebrate OSS projects and their authors by 
+                    highlighting them at the annual Open Source Awards.
+                </p>
+            </div>
+            <div class="program-card flex">
+                <img src="assets/CardIcons/forum.png" alt="forum-icon">
+                <h3>Companies</h3>
+                <p>Do you share our values and want to support us? We'll help your
+                    company get connected and engaged with the tech crowd. 
+                    We can also organize your event from A to Z.
+                </p>
+            </div>
+            <div class="program-card flex">
+                <img src="assets/CardIcons/workshop.png" alt="workshop-icon">
+                <h3>Workshop</h3>
+                <p>Hands-on workshops will be run both in-person & remotely 
+                    via Zoom (please, check the title of the workshop).
+                </p>
+            </div>
+            <div class="program-card flex">
+                <img src="assets/CardIcons/network.png" alt="network-icon">
+                <h3>JSNation</h3>
+                <p>JavaScript is #1 on demand programming language in the world 
+                    with 25 millions of people behind it. Meet the ones who defines 
+                    the now and the future of the prospering nation.
+                </p>
+            </div>
+        </div>
+        <button type="button" class="join-btn">Join GitNation 2022</button>
+    </section>
+    <section class="speakers-section">
+        <h2 class="featured-speakers">
+            This will be  generated dynamically 
+        </h2>
+    </section>
+    </main>
+    <footer class="flex">
+        <div class="footer-logo flex">
+            <img src="assets/logo/js.png" alt="JSNation-logo">
+        </div>
+        <p footer-text>
+            <span>&copy</span>2022 JSNation Some Rights Reserved
+        </p>
+    </footer>
 </body>
 </html>
