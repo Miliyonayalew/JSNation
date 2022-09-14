@@ -1,7 +1,7 @@
 @import './styles.css';
 
 .header .top-menu,
-.header .bottom-menu{
+.header .bottom-menu {
   display: none;
 }
 
@@ -140,68 +140,65 @@
   font-size: 1rem;
 }
 
-.partners-section{
+.partners-section {
   display: block;
 }
 
 @media only screen and (min-width: 768px) {
-  
-.header .top-menu,
-.header .bottom-menu{
-  display: flex;
-}
-  
-  .nav-menu{
+  .header .top-menu,
+  .header .bottom-menu {
+    display: flex;
+  }
+
+  .nav-menu {
     display: none;
   }
 
-  .headline{
+  .headline {
     padding-left: unset;
     padding-top: 4rem;
-    
   }
 
-  .motto{
+  .motto {
     display: none;
   }
 
-  .title{
+  .title {
     font-size: 5rem;
     line-height: 5rem;
   }
 
-  .logo-section{
+  .logo-section {
     border-top: 1px solid var(--light-grey);
     align-items: center;
     justify-content: center;
   }
 
-  .logo-title{
+  .logo-title {
     font-size: 2rem;
   }
 
-  .logo-img{
+  .logo-img {
     width: 45%;
   }
 
-  .past-events{
+  .past-events {
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
 
-  .past-events li{
+  .past-events li {
     width: 40vw;
     height: 20vw;
   }
 
-  .partners-section{
+  .partners-section {
     display: none;
   }
 
-  footer{
+  footer {
     color: var(--white);
     background-color: var(--hard-dark-grey);
   }
-  
 }
