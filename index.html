@@ -18,16 +18,36 @@
 <body>
     <!--Header section-->
     <header class="header">
+        <nav class="top-menu flex">
+            <ul class="flex">
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li></li><i class="fa-brands fa-twitter"></i></li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">Mypage</a></li>
+                <li><a href="#">Logout</a></li>
+             </ul>
+        </nav>
+        <nav class="bottom-menu flex">
+            <a class="logo" href="./index.html"> <img src="assets/logo/js.png" alt=""></a>
+            <ul class="nav-bar flex">
+                <li><a class="link" href="./about.html">About</a></li>
+                <li><a href="#programs">Program</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="./about.html#events">Event</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="./index.html"><span>JSNation</span></a></li>
+             </ul>
+        </nav>
         <nav class="nav-menu flex">
             <div class="hamburger-menu flex">
                 <a href="#">
                     <i class="fa-solid fa-2x fa-bars" aria-label="menu-icon"></i>
                 </a>
-            </div>
+            </div>    
         </nav>
         <section class="headline flex">
             <h2 class="motto">"Speak the same language."</h2>
-            <h1 class="title">JSNation The main JS Conference <sub>2022</sub></h1>
+            <h1 class="title">JSNation the main JS Conference <sub>2022</sub></h1>
             <p class="intro">We strive for openness and technical excellence, 
                 and our mission is to make them a part of the everyday engineering 
                 culture. You’re invited to join us!</p>
@@ -36,8 +56,9 @@
         </section>  
     </header>
     <!--Main section-->
+    
     <main>
-        <section class="main-program flex">
+        <section id="programs" class="main-program flex">
         <h2 class="program-title flex">
             Main Program
             <span class="indicator"></span>
@@ -82,10 +103,23 @@
         </div>
         <button type="button" class="join-btn">Join GitNation 2022</button>
     </section>
-    <section class="speakers-section">
+    <section id="speakers" class="speakers-section">
         <h2 class="featured-speakers">
             This will be  generated dynamically 
         </h2>
+    </section>
+    <section id="sponsors" class="partners-section">
+        <h2 class="partner-title flex">
+            Partners
+            <span class="indicator p-i"></span>
+        </h2>
+        <div class="partners-logo flex">
+            <img src="assets/sponsor/capgemini.png" alt="capgemini-logo">
+            <img src="assets/sponsor/aggrid.png" alt="aggrid-logo">
+            <img src="assets/sponsor/appwrite.png" alt="appwrite-logo">
+            <img src="assets/sponsor/decentology.webp" alt="decentology-logo">
+            <img src="assets/sponsor/docker.png" alt="docker-logo">
+        </div>
     </section>
     </main>
     <footer class="flex">
