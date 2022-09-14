@@ -18,16 +18,36 @@
 <body>
     <!--Header section-->
     <header class="header">
+        <nav class="top-menu flex">
+            <ul class="flex">
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li></li><i class="fa-brands fa-twitter"></i></li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">Mypage</a></li>
+                <li><a href="#">Logout</a></li>
+             </ul>
+        </nav>
+        <nav class="bottom-menu flex">
+            <a class="logo" href="./index.html"> <img src="assets/logo/js.png" alt=""></a>
+            <ul class="nav-bar flex">
+                <li><a class="link" href="./about.html">About</a></li>
+                <li><a href="./index.html#programs">Program</a></li>
+                <li><a href="./index.html#speakers">Speakers</a></li>
+                <li><a href="#events">Event</a></li>
+                <li><a href="./index.html#sponsors">Sponsors</a></li>
+                <li><a href="./index.html"><span>JSNation</span></a></li>
+             </ul>
+        </nav>
         <nav class="nav-menu flex">
             <div class="hamburger-menu flex">
                 <a href="#">
                     <i class="fa-solid fa-2x fa-bars" aria-label="menu-icon"></i>
                 </a>
-            </div>
+            </div>    
         </nav>
         <section class="headline flex">
             <h2 class="motto">"Speak the same language."</h2>
-                <h1 class="title">JSNation The main JS Conference 2022</h1>
+                <h1 class="title">JSNation the main JS Conference 2022</h1>
                 <p class="intro">JSNation is a 2-day 2-track event focusing exclusively 
                     on JavaScript development. Discover the future of the JavaScript 
                     development ecosystem and get connected to its stellar crowd!
@@ -52,7 +72,7 @@
                 <img src="assets/logo/js.png" alt="JSNation-logo">
             </div>
         </section>
-        <section class="past-event-section">
+        <section id="events" class="past-event-section">
             <h2 class="past-event-title flex">
                 See the past JSNation Conference
                 <span class="indicator"></span>
@@ -70,7 +90,7 @@
                 </li>
             </ul>
         </section>
-        <section class="partners-section">
+        <section id="sponsor" class="partners-section">
             <h2 class="partner-title flex">
                 Partners
                 <span class="indicator p-i"></span>
