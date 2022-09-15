@@ -13,7 +13,7 @@ This JSNation Capstone Project is an educational project aims to build a website
     - Eslint 
 ## Project Documentation 
 
-The link to my [ record a video]()
+The link to my [ record a video](https://www.loom.com/share/9c6eda6dd2024a1fa551f619a8fe934e)
 
 ## Live Demo 
 
