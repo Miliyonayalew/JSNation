@@ -1,8 +1,24 @@
-@import './styles.css';
+@import url('./styles.css');
 
 .header .top-menu,
-.header .bottom-menu {
+.header .nav-bar {
   display: none;
+}
+
+.header .visible {
+  display: flex;
+  position: fixed;
+  height: 100vh;
+  z-index: 10;
+  background: #fff;
+  mix-blend-mode: normal;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  transition: top 3s ease-in-out;
+  list-style: none;
+  overflow-y: scroll;
+  width: 100%;
 }
 
 .headline {
@@ -146,7 +162,7 @@
 
 @media only screen and (min-width: 768px) {
   .header .top-menu,
-  .header .bottom-menu {
+  .header .nav-bar {
     display: flex;
   }
 
