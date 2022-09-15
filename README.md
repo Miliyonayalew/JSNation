@@ -17,7 +17,7 @@ The link to my [ record a video](https://www.loom.com/share/9c6eda6dd2024a1fa551
 
 ## Live Demo 
 
-[Live Demo Link](https://miliyonayalew.github.io/Portfolio/)
+[Live Demo Link]([https://miliyonayalew.github.io/Portfolio/](https://miliyonayalew.github.io/Capstone-I/))
 
 ## Author
 
