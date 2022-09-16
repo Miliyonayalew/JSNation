@@ -26,7 +26,7 @@ html {
 
 body {
   font-family: var(--lato);
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .flex {
@@ -253,9 +253,95 @@ ul {
   background-color: var(--red-btn);
 }
 
+/**  Speakers Section  **/
+.speakers-section {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid var(--light-grey);
+  padding: 2rem 1.5rem;
+  background-color: var(--white);
+}
+
+.speakers-title {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: var(--black);
+}
+
+.speakers-cards {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 100%;
+  gap: 1rem;
+  height: auto;
+  padding: 2.5rem 0;
+}
+
+.speakers-card {
+  justify-content: center;
+  gap: 1rem;
+}
+
+.speaker-profile {
+  background-repeat: no-repeat;
+  width: 30%;
+  background-size: 70px;
+}
+
+.speaker-profile-pic {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0.9rem;
+  margin-left: 0.9rem;
+  height: 100px;
+  background-position: center center;
+  display: block;
+}
+
+.speaker-info {
+  flex-direction: column;
+  gap: 0.2rem;
+  width: 68%;
+}
+
+.speaker-name {
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.speaker-title {
+  flex-direction: column;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--red);
+  margin-bottom: 0.3rem;
+}
+
+.speaker-info .indicator {
+  width: 5vh;
+  border: 1px solid var(--light-grey);
+  margin-bottom: 0.3rem;
+}
+
+.speaker-description {
+  opacity: 0.8;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 0.8rem;
+  color: var(--black);
+}
+
+/**  Partners Section  **/
 .partners-section {
   display: none;
-  padding: 2rem 1.5rem;
+  padding: 1rem 1.5rem;
   background-color: var(--dark-grey);
 }
 
@@ -264,7 +350,7 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  color: var(--white);
+  color: var(--light-grey);
 }
 
 .p-i {
@@ -445,6 +531,24 @@ footer {
     text-decoration: underline;
     font-size: 1.3rem;
   }
+
+  /* Speaker Section */
+  .speakers-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 80%;
+  }
+
+  .speaker-profile-pic {
+    height: 100px;
+  }
+
+  .speaker-description {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  /* Partner Section */
 
   .partners-section {
     display: block;
