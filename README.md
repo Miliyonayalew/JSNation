@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # JSNation Conference Page 2022
-This is Microverse HTML/CSS and JS Capstone-I Project, it's an educational project aims to build a website. Javascript Nation (JSNation) is a 2-day 2-track event focusing exclusively on JavaScript development. It aims to discover the future of the JavaScript development ecosystem and connect to its stellar crowd! It is the biggest Javascript conference Worldwide.
+Javascript Nation (JSNation) is a 2-day 2-track event focusing exclusively on JavaScript development. It aims to discover the future of the JavaScript development ecosystem and connect to its stellar crowd! It is the biggest Javascript conference Worldwide.
 
 ## Built With
 - HTML5, CSS3 and JavaScript
